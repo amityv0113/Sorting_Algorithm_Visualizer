@@ -13,7 +13,7 @@ app.use(express.static(public_Dir))
 app.set('view engine','hbs')
 app.set('views',view_dir)
 
-app.get('/algo' , (request ,response) =>{
+app.get('' , (request ,response) =>{
     response.render('index',{})
 })
 
