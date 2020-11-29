@@ -1,0 +1,19 @@
+{
+  "name": "sorting_algorithm_visualizer-main",
+  "version": "1.0.0",
+  "description": "Sorting Algorithm Visualizer helps to visualize different sorting algorithms like :",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amityv0113/Sorting_Algorithm_Visualizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amityv0113/Sorting_Algorithm_Visualizer/issues"
+  },
+  "homepage": "https://github.com/amityv0113/Sorting_Algorithm_Visualizer#readme"
+}
