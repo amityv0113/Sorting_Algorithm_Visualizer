@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/amityv0113/Sorting_Algorithm_Visualizer/issues"
   },
-  "homepage": "https://github.com/amityv0113/Sorting_Algorithm_Visualizer#readme"
+  "homepage": "https://github.com/amityv0113/Sorting_Algorithm_Visualizer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "path": "^0.12.7"
+  }
 }
