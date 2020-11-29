@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="text-center" style="background-color:rgba(222, 224, 224, 0.336)">
+        <h1>Sorting Visualization</h1>
+        <div class="algos">
+            <button type="button" >Bubble</button>
+            <button type="button" >Selection</button>
+            <button type="button" >Insertion</button>
+            <button type="button" >Merge</button>
+            <button type="button" >Quick</button>
+            <button type="button"  style="margin-right: 0px;">Heap</button>
+        </div>
+        <div class="array-inputs" style="place-content: center;">
+            <p>Size of the array:</p>
+            <input id="array_size" type="range" min=20 max=80 step=1 value=80>
+            <p>Speed of the algorithm:</p>
+            <input id="algo_speed" type="range" min=1 max=5 step=1 value=4>
+            <div>
+                <button id="array_generate">Generate New Array!</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <section >
+
+        <div id="Info_Cont1">
+            <!-- <p>This is First Container</p> -->
+        </div>
+
+        <div id="array_container">
+            
+        </div>
+
+        <div id="Info_Cont2">
+            <!-- <p>This is Second Container</p> -->
+        </div>
+
+    </section>
+    
+       <script src="../javascript/main.js"></script>
+       <script src="../javascript/bubble_sort.js"></script>
+       <script src="../javascript/selection_sort.js"></script>
+       <script src="../javascript/insertion_sort.js"></script>
+       <script src="../javascript/merge_sort.js"></script>
+       <script src="../javascript/quick_sort.js"></script>
+       <script src="../javascript/heap_sort.js"></script>
+    
+</body>
+</html>
